@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #d9d9d9;
+  }
+  header {
+    width: 100%;
+    background-color: #fff;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0px 5% 0px 5%;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .container {
+    width: 957px;
+    border-radius: 64px;
+    background-color: #fff;
+    margin-top: 180px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container h2 {
+    color: #0097b2;
+  
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    margin-bottom: 50px;
+  }
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .container form label {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .container form input {
+    width: 790.331px;
+    height: 109.726px;
+    border-radius: 50px;
+    border: 1px solid #a5a5a5;
+    margin-bottom: 70px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+  
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container form input::placeholder {
+    color: #aeaeae;
+  
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container form button {
+    border-radius: 32px;
+    background: #0097b2;
+    border: none;
+    color: #fff;
+    padding: 26px 0px 26px 0px;
+  
+    color: #fff;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+    align-self: center;
+  }
+  .container div {
+    width: 790.331px;
+    height: 109.726px;
+    color: #000;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    border: 1px solid #000;
+    border-radius: 50px;
+  }
+  

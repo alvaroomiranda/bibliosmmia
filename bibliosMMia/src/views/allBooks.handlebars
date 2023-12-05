@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="/css/books.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body>
+    <header>
+        <p>Categorias</p>
+    </header>
+
+    <main>
+      {{#each books}}
+        <div class="categorias">
+            <div class="livros">
+                <a class="livros-a" href="/book/books/show/{{this.id}}">
+                    <div>{{this.title}}</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="btn-actions">
+          <form action="/book/books/delete/{{this.id}}" method="post">
+          <button class="delete-btn" type="submit">Deletar Livro</button>
+          </form>
+
+            <form action="/book/books/edit/{{this.id}}">
+            <button class="edit-btn" type="submit">Editar Livro</button></form>
+          </form>
+        </div>
+        {{/each}}
+
+    </main>
+
+    <footer>
+        <a href="/"> <img src="/assets/img/Home.png"></a>
+        <a href="/allBooks"> <img src="/assets/img/Search.png"></a>
+        <a href="/registerBook"> <img src="/assets/img/Add.png"></a>
+    </footer>
+</body>
+</html>
